@@ -1,6 +1,6 @@
-import Head from 'next/head';
-import NavBar from './NavBar';
-import Title from './Title';
+import Head from 'next/head'
+import NavBar from './NavBar'
+import Title from './Title'
 
 function Page({ title, children }) {
   return (
@@ -11,12 +11,12 @@ function Page({ title, children }) {
       <header>
         <NavBar />
       </header>
-      <main className="px-6 py-4">
+      <main className='px-6 py-4'>
         <Title>{title}</Title>
         {children}
       </main>
     </>
-  );
+  )
 }
 
-export default Page;
+export default Page
